@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #1affff;
+  /* background-image: url(./images/Band\ Image.avif); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+.title{
+  background-color: #d62439;
+  height:120px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  background-color: #404B69;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #DBEDF3;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.w {
+  background-image: url(./images/tom1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.a {
+  background-image: url(./images/tom2.png);
+
+}
+
+.s {
+  background-image: url(./images/tom3.png);
+}
+
+.d {
+  background-image: url(./images/tom4.png);
+
+}
+
+.j {
+  background-image: url(./images/crash.png);
+}
+
+.k {
+  background-image: url(./images/kick.png);
+
+}
+
+.l {
+  background-image: url(./images/snare.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #0044ff;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ff0000;
+  text-shadow: 3px 0 #ffffff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(27, 55, 164);
+}
